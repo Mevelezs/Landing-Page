@@ -1,0 +1,22 @@
+:root{
+    --primary-blue: #090f25;
+    --primary-background: rgb(246 248 252);
+    --violet: #b62ef7;
+    --font-color:#ffffff;
+
+
+}
+
+body {
+    margin: 0;
+    font-family: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+    background-color: var(--primary-background)
+}
+.top-bar{
+    background: radial-gradient(circle at 76.71% 27.59%, #ff67ff 0, #ff58ff 16.67%, #df45ff 33.33%, #b52df7 50%, #8616ed 66.67%, #4d0ee5 83.33%, #0015e1 100%);
+    text-align: center;
+}
+.top-bar a{
+    text-decoration: none;
+    color: var(--font-color);
+}

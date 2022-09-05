@@ -1,0 +1,47 @@
+.FixedHeightContainer
+{
+  float:right;
+  height: 550px;
+  width:400px; 
+  padding:3px; 
+  background:#090f25;
+  border-radius: 5px;
+}
+.Content
+{
+    height:450px;
+    overflow:auto;
+    background:#121626;
+}
+code{
+    color: #ffff;
+}
+.title-items{
+    display: flex;
+    justify-content: space-between;
+}
+.icons{
+    padding: 12px 24px 12px 24px; /*  arriba derecha abajo izquierda  */
+    display: flex;
+}
+.red-circle{
+    background-color: #FC605C;
+    border-radius: 9999px;
+    width: 0.75rem;
+    height: 0.75rem;
+    margin-right: 0.25rem;
+}
+.yellow-circle{
+    background-color: #FDBC40;
+    border-radius: 9999px;
+    width: 0.75rem;
+    height: 0.75rem;
+    margin-right: 0.25rem;
+}
+.green-circle{
+    background-color: #34C749;
+    border-radius: 9999px;
+    width: 0.75rem;
+    height: 0.75rem;
+    margin-right: 0.25rem;
+}

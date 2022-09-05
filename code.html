@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="code.css">
+    <title>Document</title>
+</head>
+<div class="FixedHeightContainer">
+    <div class="title-items">
+        <div class="icons">
+            <div class="red-circle"></div>
+            <div class="yellow-circle"></div>
+            <div class="green-circle"></div>
+        </div>
+        <div class="title">JSON</div>
+    </div>
+    <div class="Content">
+     <pre>
+        <code>
+// POST https://unify.apideck.com/crm/leads
+
+{
+  "id": "12345",
+  "owner_id": "54321",
+  "company_id": "2",
+  "company_name": "Spacex",
+  "name": "Elon Musk",
+  "first_name": "Elon",
+  "last_name": "Musk",
+  "description": "A thinker",
+  "prefix": "Sir",
+  "title": "CEO",
+  "status": "New",
+  "monetary_amount": 75000,
+  "currency": "USD",
+  "fax": "+12129876543",
+  "websites": [
+    {
+      "id": "12345",
+      "url": "http://example.com",
+      "type": "default"
+    }
+  ],
+  "addresses": [
+    {
+      "id": "123",
+      "type": "invoicing",
+      "name": "HQ US",
+      "line1": "Main street",
+      "line2": "apt #",
+      "city": "San Francisco",
+      "state": "CA",
+      "postal_code": "94104",
+      "country": "US",
+      "latitude": "40.759211",
+      "longitude": "-73.984638"
+    }
+  ],
+  "social_links": [
+    {
+      "id": "12345",
+      "url": "https://www.twitter.com/apideck-io",
+      "type": "twitter"
+    }
+  ],
+  "phone_numbers": [
+    {
+      "id": "12345",
+      "number": "111-111-1111",
+      "type": "default"
+    }
+  ],
+  "emails": [
+    {
+      "id": "123",
+      "email": "elon@musk.com",
+      "type": "default"
+    }
+  ],
+  "custom_fields": [
+    {
+      "id": "custom_technologies",
+      "value": "Uses Salesforce and Marketo"
+    }
+  ],
+  "tags": [
+    "New"
+  ],
+  "updated_at": "2020-09-30T07:43:32.000Z",
+  "created_at": "2020-09-30T07:43:32.000Z"
+}
+        </code>
+     </pre>
+    </div>
+  </div>
+</body>
+</html>
